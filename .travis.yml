@@ -7,3 +7,5 @@ before_install:
 
 script:
   -  docker run -e CI=true sanjuktachatterjee/frontend npm run test
+
+
